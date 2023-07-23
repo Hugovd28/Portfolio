@@ -1,0 +1,582 @@
+.cover .image4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  animation-name: startup;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 0.5s;
+  animation-iteration: 1;
+  animation-fill-mode: forwards;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+@keyframes startup {
+  0% {opacity: 1; overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;}
+
+  50% {opacity: 1; width: 100%; height: 40%; overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;}
+
+  90% {opacity: 0;width: 100%; height: 40%; overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  -o-object-fit: cover;
+  object-fit: cover; left: 0px;}
+
+  100% {left: -999999px;opacity: 0}
+}
+@keyframes startup2 {
+  0% {opacity: 0}
+
+  50% {opacity: 0}
+
+  90% {opacity: 1}
+}
+.case-hero {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 63%;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.case-hero__bg {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    opacity: 1;
+}
+
+.case-hero--video .case-hero__bg {
+    opacity: 1;
+    transition: opacity .4s
+}
+.case-hero__video {
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    opacity: 1;
+}
+
+.case-hero__video video {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+@-webkit-keyframes gradient {
+    0% {
+        background-position: 0 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    to {
+        background-position: 0 50%
+    }
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    to {
+        background-position: 0 50%
+    }
+}
+@-webkit-keyframes grow {
+    to {
+        transform: scale(100%);
+        opacity: 0
+    }
+}
+
+@keyframes grow {
+    to {
+        transform: scale(100%);
+        opacity: 0
+    }
+}
+body{
+  background-color: #111111;
+}
+img{
+  height: 100%;
+  width: auto;
+}
+.container{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.container h1{
+  color: #fff;
+  font-family: monospace;
+  font-size: 45px;
+  position: absolute;
+  top: 38%;
+  left: 10%
+}
+.container h2{
+  color: #fff;
+  font-family: monospace;
+  font-size: 30px;
+  text-align: right;
+  position: absolute;
+  top: 40%;
+  right: 10%;
+}
+.container h3{
+  color: #fff;
+  font-family: cursive;
+  font-size: 15px;
+  text-align: right;
+  position: absolute;
+  top: 45%;
+  left: 10%;
+}
+hr{
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  width: 80%
+}
+.text{
+  position: absolute;
+  margin-left: 25%;
+  margin-right: 25%;
+  top: 51.5%;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 16px;
+  animation-name: startup2;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  animation-delay: 0.5s;
+  animation-iteration: 1;
+  animation-fill-mode: forwards;
+}
+.text h1{
+  color: #fff;
+  font-family: monospace;
+  font-size: 25px;
+}
+.Kavel img{
+  width: 20%;
+  height: auto;
+  position: absolute;
+  left: 2.5%;
+  top: 52%;
+}
+.image4 img{
+  width: 20%;
+  height: auto;
+  position: absolute;
+  left: 2.5%;
+  top: 102.5%;
+}
+.image33 img{
+  width: 20%;
+  height: auto;
+  position: absolute;
+  left: 2.5%;
+  top: 124.5%;
+}
+.documenten{
+  position: absolute;
+  top: 52%;
+  margin-left: 77.5%;
+  margin-right: 2.5%;
+  height: 600px;
+}
+.container2{
+    background: #222;
+    width: 20%;
+    height: auto;
+    position: absolute;
+    left: 2.5%;
+    margin-top:77%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container3{
+    background: #222;
+    width: 19.6%;
+    height: auto;
+    position: absolute;
+    right: 2.5%;
+    margin-top: 65.7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container4{
+    background: #222;
+    width: 19.6%;
+    height: auto;
+    position: absolute;
+    right: 2.5%;
+    margin-top: 77%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper{
+  width: 100%;
+  height: fit-content;
+}
+.swiper-slide img{
+  width: 100%;
+}
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+  color: #ED7D31;
+}
+.swiper .swiper-pagination-bullet-active{
+  background: #ED7D31;
+}
+.cont{
+  position: fixed;
+  z-index: 2;
+  top: 4.5%;
+  right: 5%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+.hamburger {
+	position: fixed;
+  z-index: 2;
+  top: 5%;
+  right: 5%;
+	display: block;
+	width: 70px;
+	cursor: pointer;
+	appearance: none;
+	background: none;
+	outline: none;
+	border: none;
+}
+.hamburger .bar, .hamburger:after, .hamburger:before {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 10px;
+	background-color: #FFF;
+	margin: 6px 0px;
+	transition: 0.4s;
+}
+.hamburger.is-active:before {
+	transform: rotate(-45deg) translate(-8px, 6px);
+}
+.hamburger.is-active:after {
+	transform: rotate(45deg) translate(-9px, -8px);
+}
+.hamburger.is-active .bar {
+	opacity: 0;
+}
+.hamburger .container5{
+  opacity: 0%;
+  position: absolute;
+  width: 0%;
+  height: 0%;
+}
+.hamburger.is-active .container5{
+  position: fixed;
+  list-style: none;
+  display: flex;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  height: 39.7%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 100%;
+  font-family: 'Roboto', sans-serif;
+  margin-right: 200px;
+  transition: all .55s ease;
+}
+.hamburger.is-active ul{
+  position: absolute;
+  list-style: none;
+  margin-left: 80.5%;
+  margin-top: 5.0%;
+  text-align: left;
+  z-index: 2;
+}
+.hamburger.is-active li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+  border-bottom: 2px solid transparent;
+  transition: all .55s ease;
+}
+.hamburger.is-active li a:hover{
+  border-bottom: 2px solid white;
+  transition: all .55s ease;
+}
+nav{
+  flex:1;
+  text-align: right;
+  position: relative;
+  z-index: 3
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+  border-bottom: 2px solid transparent;
+  transition: all .55s ease;
+}
+nav ul li a:hover{
+  border-bottom: 2px solid white;
+  transition: all .55s ease;
+}
+.content{
+  animation-name: startup2;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 0.5s;
+  animation-iteration: 1;
+  animation-fill-mode: forwards;
+}
+.renders, .documenten, .container2, .container3, .container4{
+  animation-name: startup2;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  animation-delay: 0.5s;
+  animation-iteration: 1;
+  animation-fill-mode: forwards;
+}
+  @media (max-width: 800px) {
+    .text{
+      top: 48.5%;
+      left: 25%;
+      width: 45%;
+    }
+    .cont{
+      top: 4.5%;
+      right: 10%;
+      width: 100%;
+    }
+    .hamburger.is-active .container5 ul{
+      top: 17%;
+      left: -19.4%;
+      height: 39.7%;
+    }
+    .Kavel img{
+      width: 45%;
+      top: 49%;
+    }
+    .image4 img{
+      width: 45%;
+      top: 88%;
+    }
+    .image33 img{
+      width: 45%;
+      top: 105.5%;
+    }
+    .container2{
+        width: 45%;
+        left: 2.5%;
+        top: 74%;
+    }
+    .container3{
+        width: 45%;
+        left: 2.5%;
+        top: 98.5%;
+    }
+    .container4{
+        width: 45%;
+        left: 2.5%;
+        top: 109%;
+    }
+    .documenten{
+      visibility: hidden;
+    }
+  }
+  @media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 414px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) {
+      /* Iphone 6/7/8 + Iphone 6/7/8 Plus */
+      .container5{
+        left:
+
+      }
+      .hamburger {
+        top: 3.75%;
+        right: 7.5%;
+      	width: 105px;
+      }
+      .hamburger .bar, .hamburger:after, .hamburger:before {
+      	height: 15px;
+      	margin: 9px 0px;
+      }
+      .hamburger.is-active .container5 ul{
+          top: 11%;
+          left: -15%;
+          height: 39.7%;
+      }
+      .text{
+        top: 48.5%;
+        left: 25%;
+        width: 45%;
+        font-size: 22px;
+      }
+      .cont{
+        top: 4%;
+        right: 14%;
+        width: 100%;
+      }
+      .container h1{
+        top: 40%;
+      }
+      .container h2{
+        top: 41%;
+      }
+      .container h3{
+          left: 10%;
+      }
+      .Kavel img{
+        width: 45%;
+        top: 49%;
+      }
+      .image4 img{
+        width: 45%;
+        top: 88%;
+      }
+      .image33 img{
+        width: 45%;
+        top: 105.5%;
+      }
+      .container2{
+          width: 45%;
+          left: 2.5%;
+          top: 112%;
+      }
+      .container3{
+          width: 45%;
+          left: 2.5%;
+          top: 102%;
+      }
+      .container4{
+          width: 45%;
+          left: 2.5%;
+          top: 79%;
+      }
+      .documenten{
+        visibility: hidden;
+      }
+  }
+  @media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 374px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) {
+      /* Galaxy S8/S9+/S8+ */
+      .container5{
+        left:
+
+      }
+      .hamburger {
+        top: 3.75%;
+        right: 7.5%;
+        width: 105px;
+      }
+      .hamburger .bar, .hamburger:after, .hamburger:before {
+        height: 15px;
+        margin: 9px 0px;
+      }
+      .hamburger.is-active .container5 ul{
+          top: 11%;
+          left: -15%;
+          height: 39.7%;
+      }
+      .text{
+        top: 48.5%;
+        left: 25%;
+        width: 45%;
+        font-size: 22px;
+      }
+      .cont{
+        top: 4%;
+        right: 14%;
+        width: 100%;
+      }
+      .container h1{
+        top: 40%;
+      }
+      .container h2{
+        top: 41%;
+      }
+      .container h3{
+          left: 10%;
+      }
+      .Kavel img{
+        width: 45%;
+        top: 49%;
+      }
+      .image4 img{
+        width: 45%;
+        top: 79%;
+      }
+      .image33 img{
+        width: 45%;
+        top: 93%;
+      }
+      .container2{
+          width: 45%;
+          left: 2.5%;
+          top: 98%;
+      }
+      .container3{
+          width: 45%;
+          left: 2.5%;
+          top: 89%;
+      }
+      .container4{
+          width: 45%;
+          left: 2.5%;
+          top: 69.5%;
+      }
+      .documenten{
+        visibility: hidden;
+      }
+  }
